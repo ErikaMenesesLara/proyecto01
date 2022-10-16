@@ -5,13 +5,13 @@
 }
 
 body{
-    background: lightslategray;
+    /* background: lightslategray; */
     font-size: 1rem;
     /* Posiblemente ponga aqui una imagen de fondo */
 }
 
 .contenedorPadre{
-    background: lightgoldenrodyellow;
+    /* background: lightgoldenrodyellow; */
     width: 100%;
     display: grid;
     grid-template-rows: 36em auto 10em;
@@ -75,6 +75,81 @@ a:hover{
 }
 
 /* TERMINA HEADER */
+
+/* EMPIEZA SECTION */
+
+.seccionPrincipal{
+    background: lightsalmon;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20% auto auto auto auto;
+}
+
+.seccion{
+    border: 0.1em solid black;
+    padding: 2em 4em;
+}
+.seccionResenia{
+    background: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.seccionDestino{
+    background: white;
+}
+
+.contenedorImagen{
+    width: 100%;
+    height: 33em;
+    background: linear-gradient(rgba(81, 81, 81, 0.1), rgba(0,0,0,1)), url(https://denomades.s3.us-west-2.amazonaws.com/blog/wp-content/uploads/2016/07/04134751/can%CC%83oncolca.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.tituloDestino1{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-size: 1em;
+}
+
+.tituloDestino2{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    font-size: 2em;
+}
+
+.seleccionDestino{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
