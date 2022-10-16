@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightslategray;
+    font-size: 1rem;
+    /* Posiblemente ponga aqui una imagen de fondo */
+}
+
+.contenedorPadre{
+    background: lightgoldenrodyellow;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 36em auto 10em;
+}
+
+/* EMPIEZA HEADER */
+
+.cabeceraFondo{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+    padding: 0.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(https://www.peru.travel/Contenido/AcercaDePeru/Imagen/es/1/0.0/Principal/Machu%20Picchu.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+
+.navegador .lista .itemLista{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    border-bottom: 0.1em solid transparent;
+}
+
+a:hover{
+    border-bottom: 0.1em solid white;
+}
+
+.logo{
+    color: white;
+    margin-left: 3em;
+}
+
+.texto{
+    width: 50%;
+    color: white;
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+
+.titulo{
+    font-size: 5em;
+}
+
+/* TERMINA HEADER */
+
+
+
+
+
+
+
+
+
+
+
+
